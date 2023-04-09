@@ -40,21 +40,21 @@ already been installed.
 **Now that you've successfully remotely connected, run some commands.**
 
 
-**cd Command**
+**cd Command:**
 
 >![Image](cdCommand.png)
 
 The cd command is meant to switch what is the current directory to a specified path. 
 
 
-**pwd Command**
+**pwd Command:**
  
  >![Image](PWDcommand.png)
  
  Here the pwd command prints out what is the current working directory. 
  
  
-**ls -lat Command**
+**ls -lat Command:**
   
   >![Image](lsLATcommand.png)
   
