@@ -13,7 +13,7 @@ already been installed.
 
 **Once VScode is installed, when the application is open, it should open to this:**
 
-![Image](VSCode Page.png)
+![Image](VSCode.png)
 
 
 ## Remote Connection 
@@ -25,11 +25,18 @@ already been installed.
    for the remote connection as well as the shown username. 
 4) Remember your password and username for remote connection. 
 
-**To Remote Connect**
+**To Remote Connect:**
 1) Open VScode. Then open the terminal using the command: ctrl + ` 
 2) Now that the terminal is open, type in ssh <username>@ieng6.ucsd.edu
-3) If entered correctly, the next line would ask for your password. 
-4) Enter your password that you've reset your account to 
-  * Note: When typed in the terminal it won't show up because it is invisible.\ However when inputted correctly, 
-    the next line
+3) If entered correctly, the next line would ask a question whether
+    to continue connecting. Type in: yes . 
+4) Then, enter your password that you've reset your account to 
+   * Note: When typed in the terminal it won't show up because it is invisible.
+5) When the password has been inputted correctly, the terminal should show: 
+   ![Image](RemoteLogin.png)
     
+
+## Running Some Commands 
+**Now that you've successfully remotely connected, run some commands.**
+   
+   
