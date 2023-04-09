@@ -31,11 +31,11 @@ already been installed.
 1) Open VScode. Then open the terminal using the command: ctrl + ` 
 2) Now that the terminal is open, type in ssh **username**@ieng6.ucsd.edu
 3) If entered correctly, the next line would ask a question whether
-    to continue connecting. Type in: yes . 
+    to continue connecting. Type in: yes 
 4) Then, enter your password that you've reset your account to 
    * Note: When typed in the terminal it won't show up because it is invisible.
 5) When the password has been inputted correctly, the terminal should show: 
-   <br><p>
+ 
    ![Image](RemoteLogin.png)
     
 
