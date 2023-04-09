@@ -38,5 +38,19 @@ already been installed.
 
 ## Running Some Commands 
 **Now that you've successfully remotely connected, run some commands.**
-   
-   
+
+**cd Command**
+![Image](cdCommand.png)
+
+The cd command is meant to switch what is the current directory to a specified path. 
+
+**pwd Command**
+ ![Image](PWDcommand.png)
+ 
+ Here the pwd command prints out what is the current working directory. 
+ 
+ **ls -lat Command**
+  ![Image](lsLATcommand.png)
+  
+  This command results in a list of the files in the current working directory as shown above. 
+ 
