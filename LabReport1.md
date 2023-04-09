@@ -15,8 +15,8 @@ already been installed.
 
 ![Image](VSCode.png)
 
-<br>
-<p>
+
+
    
 ## Remote Connection 
 
@@ -38,8 +38,8 @@ already been installed.
    <br><p>
    ![Image](RemoteLogin.png)
     
-<br>
-<p>
+
+   
    
 ## Running Some Commands 
 **Now that you've successfully remotely connected, run some commands.**
