@@ -5,6 +5,7 @@ account can seem quite troublesome. However, that can now easily be resolved thr
 these simple steps!
 
 
+
 ## VScode Installation 
 
 **First, VScode must be installed onto the computer.** 
@@ -14,6 +15,8 @@ already been installed.
 **Once VScode is installed, when the application is open, it should open to this:**
 
 ![Image](VSCode.png)
+
+
 
 
 ## Remote Connection 
@@ -35,6 +38,8 @@ already been installed.
 5) When the password has been inputted correctly, the terminal should show: 
    ![Image](RemoteLogin.png)
     
+
+
 
 ## Running Some Commands 
 **Now that you've successfully remotely connected, run some commands.**
