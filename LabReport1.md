@@ -11,4 +11,4 @@ these simple steps!
 * I did not complete this specific step exactly, as prior to the lab, VScode had
 already been installed.
 
-**Once VScode is installed, when the application is open, it should open to this: **
+**Once VScode is installed, when the application is open, it should open to this:**
