@@ -21,20 +21,20 @@ already been installed.
 ## Remote Connection 
 
 **Before remote connection:**
-1) Look up specific-course account for CSE15L here: https://sdacs.ucsd.edu/~icc/index.php
-2) Login. Then, click on the course for CSE15L. It typically starts with: cs15l. 
+1) Look up specific-course account for CSE15L here: https://sdacs.ucsd.edu/~icc/index.php \
+2) Login. Then, click on the course for CSE15L. It typically starts with: cs15l.\
 3) Next, use the Global Password Change Tool to reset your password. This will be important\
-   for the remote connection as well as the shown username. 
-4) Remember your password and username for remote connection. 
+   for the remote connection as well as the shown username.\ 
+4) Remember your password and username for remote connection.\
 
 **To Remote Connect:**
-1) Open VScode. Then open the terminal using the command: ctrl + ` 
-2) Now that the terminal is open, type in ssh **username**@ieng6.ucsd.edu
-3) If entered correctly, the next line would ask a question whether
-    to continue connecting. Type in: yes 
-4) Then, enter your password that you've reset your account to 
-   * Note: When typed in the terminal it won't show up because it is invisible.
-5) When the password has been inputted correctly, the terminal should show: 
+1) Open VScode. Then open the terminal using the command: ctrl + ` \
+2) Now that the terminal is open, type in ssh **username**@ieng6.ucsd.edu\
+3) If entered correctly, the next line would ask a question whether\
+    to continue connecting. Type in: yes\
+4) Then, enter your password that you've reset your account to\
+   * Note: When typed in the terminal it won't show up because it is invisible.\
+5) When the password has been inputted correctly, the terminal should show:\
  
    ![Image](RemoteLogin.png)
     
