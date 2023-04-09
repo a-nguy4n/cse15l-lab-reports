@@ -12,3 +12,4 @@ these simple steps!
 already been installed.
 
 **Once VScode is installed, when the application is open, it should open to this:**
+![Image](VSCode Page.png)
