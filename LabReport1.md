@@ -22,7 +22,7 @@ already been installed.
 
 **Before remote connection:**
 
-1) Look up specific-course account for CSE15L here: https://sdacs.ucsd.edu/~icc/index.php
+1) Look up specific-course account for CSE15L here: [link](https://sdacs.ucsd.edu/~icc/index.php)
 
 2) Login. Then, click on the course for CSE15L. It typically starts with: cs15l.
 
