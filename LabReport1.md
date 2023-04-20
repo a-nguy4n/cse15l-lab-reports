@@ -9,11 +9,14 @@ these simple steps!
 
 **First, VScode must be installed onto the computer.** 
 * I did not complete this specific step exactly, as prior to the lab, VScode had
-already been installed.
+already been installed in my Mac.
 
 **Once VScode is installed, when the application is open, it should open to this:**
 
 ![Image](VSCode.png)
+
+
+**However for those on a different Operating System (OS), the setup will differ:** 
 
 
 
