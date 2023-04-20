@@ -15,12 +15,34 @@ already been installed in my Mac.
 
 ![Image](VSCode.png)
 
+<br/>
+
 
 **However for those on a different Operating System (OS), the setup will differ:** 
 
+![Image](VSCodeOS.png)
+
++ __For MacOS:__
+  After downloading VScode for MacOS specifically, next is to launch it. 
+  1. Open Command Palette by pressing the keys: Command + Shift + P
+  2. Next, type in : shell command 
+  3. Then, install 'code' command in PATH command <br/>
 
 
-   
+  More specific instructions can be found here: [link](https://code.visualstudio.com/docs/setup/mac)
+
++ __For Windows x64:__
+ After downloading VScode for Windows specifically, next is to launch it. 
+ The launch for Windows will differ to that of Mac as to set up and launch, 
+ it is important to run the installer: VSCodeUserSetup-{version}.exe More specific instructions can be found here: [link](https://code.visualstudio.com/docs/setup/windows)
+
++ __For Linux x64:__ 
+After downloading VScode for Linux specifically, next is to launch it. 
+Launching VScode for Linux will be different to Windows and MacOS due to 
+installation for Debian/Ubuntu based distributions or running different commands.More specific instructions can be found here: [link](https://code.visualstudio.com/docs/setup/linux) 
+
+
+
 ## Remote Connection 
 
 **Before remote connection:**
@@ -64,19 +86,28 @@ already been installed in my Mac.
 
 >![Image](cdCommand.png)
 
-The cd command is meant to switch what is the current directory to a specified path. 
+The cd command is meant to switch what is the current directory to a specified path. This means 
+you can navigate to another folder on your computer. 
 
 
 **pwd Command:**
  
  >![Image](PWDcommand.png)
  
- Here the pwd command prints out what is the current working directory. 
+ Here the pwd command prints out what is the current working directory, the folder you are working
+ in at the moment. 
  
  
 **ls -lat Command:**
   
   >![Image](lsLATcommand.png)
   
-  This command results in a list of the files in the current working directory as shown above. 
+  This command results in a list of the files in the current working directory as shown above.<br/>
+  
+  
+  Here is a breakdown of the command components: 
+  * __ls__ simply lists the directory contents 
+  * __l__ refers to setting the output in a list format 
+  * __a__ specifies the command to not ignore any files that begin with: .  and  .. 
+  * __t__ sorts the files by time, where the newest files are listed in the beginning 
  
