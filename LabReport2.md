@@ -86,9 +86,11 @@ In order to fix the bug and get the desired outcome, the code is then altered to
 - Setting arr[i] to arr[arr.length - i - 1] reverses the first half of the list. 
 - Setting arr[arr.length - i - 1] to temp reverses the second half or "swaps". 
 
+By altering the code to iterating to half the list length and setting a temporary variable, the bug is then resolved since it 
+will no longer set the second half of the list to the non-reversed elements. Rather, the list elements at their indices will now be "swapped". 
+For instance, list {1,2,3,4,5} will now correctly swap/reverse to {5,4,3,2,1}. 
 
-
-
+<br>
 
 
 ## What I've Learned 
