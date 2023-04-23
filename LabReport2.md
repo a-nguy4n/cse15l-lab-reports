@@ -30,9 +30,23 @@ public class ArrayExamples {
  ```
 
 
-**Symptom**
-- The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+**Input & Symptom** - The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+- Test 1 
+  - Input: Failure Inducing 
 
+  ```
+  @Test 
+  public void testReverseInPlace2(){
+    int[] input1 = {1,2,3,4,5};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{5,4,3,2,1}, input1);
+  }
+  ```
+  - Symptom 
+     ![Image](Reverse OutPut #1.png)
+
+
+-Test 2 Symptom 
 
 
 
