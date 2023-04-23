@@ -43,10 +43,23 @@ public class ArrayExamples {
   }
   ```
   - Symptom 
-     ![Image](Reverse OutPut #1.png)
+     ![Image](ReverseOut1.png)
 
 
 -Test 2 Symptom 
+  -Input: Non-Failure Inducing 
+  
+  ```
+    @Test 
+  public void testReverseInPlace3(){
+    int[] input1 = {3,3,3};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{3,3,3}, input1);
+  }
+  ```
+  
+  -Symptom
+    ![Image]() 
 
 
 
