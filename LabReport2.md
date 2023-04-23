@@ -10,29 +10,26 @@ This lab report will discuss the web server, String Server, and address bugs wit
 
 ## Bugs: from Array Methods
 The Array Methods are intended to reverse a list, however, because of bugs in the code it 
-does not output the expected results. 
-
-**The Bug**  The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+does not output the expected results. <br>
 
 
+**The Bug**  
 There is a bug specifically in the "reverseInPlace" method that incorrectly changes the input array to be in reversed order: 
 The bug would correctly reverse the first half of the list, but in the second half retains the same values rather than the reversed values.
 
 ```
-public class ArrayExamples {
-
   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
   }
- }
  ```
+<br>
 
 
 **Input & Symptom** - The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 - Test 1 
-  - Input: Failure Inducing 
+  - Failure Inducing Input
 
   ```
   @Test 
@@ -42,12 +39,18 @@ public class ArrayExamples {
     assertArrayEquals(new int[]{5,4,3,2,1}, input1);
   }
   ```
+      
+      
   - Symptom 
      ![Image](ReverseOut1.png)
 
+ The input {1,2,3,4,5} is meant to be reversed into {5,4,3,2,1}. However, this test fails because of bug only reverses the first half of the list successfully. But starting at index 3, the element values stay the same as it is expected to be 2. In actuality, the result is 4. 
 
--Test 2 Symptom 
-  -Input: Non-Failure Inducing 
+<br>
+
+
+- Test 2 
+  - Non-Failure Inducing Input
   
   ```
     @Test 
@@ -57,25 +60,31 @@ public class ArrayExamples {
     assertArrayEquals(new int[]{3,3,3}, input1);
   }
   ```
+  - Symptom
   
-  -Symptom
-    ![Image]() 
+    ![Image](ReverseOut2.png) 
 
+ The input {3,3,3} is reversed into {3,3,3}. This test passes as opposed to Test 1 because the values stay the same. As such, the order of reversing does  not necessarily matter at which index and element. Thus, this test successfully passes. 
 
-
-
-**Failure Inducing Input**
-- A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
-
-
-
-**Non-Failure Inducing Input**
-- An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
-
+<br>
 
 
 **Addressing the Bug**
-Briefly describe why the fix addresses the issue.
+In order to fix the bug and get the desired outcome, the code is then altered to: 
+
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp = arr[i]; 
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp; 
+```
+
+- Essentially rather than loop the entire list, it is better to loop through half of it. In doing so, you don't swap the elements twice.  
+
+- Then create a temporary variable. This is meant to store arr[i] values. 
+- Setting arr[i] to arr[arr.length - i - 1] reverses the first half of the list. 
+- Setting arr[arr.length - i - 1] to temp reverses the second half or "swaps". 
 
 
 
