@@ -4,7 +4,13 @@ This lab report will discuss the web server, String Server, and address bugs wit
 
 
 ## Web Server - String Server 
+A server is made where it will print out the string inputted into the path. 
 
+**String Server Code** 
+
+- Handler Class 
+
+- String Server Class 
 
 
 
