@@ -27,6 +27,9 @@ A server is made where it will print out the string inputted into the path.
      - main: The main method checks whether the argument, the port number, is a valid argument in order to create the domain. The port number here is 4000. 
   - Passing the argument 'Hello' only results in the page turning from a blank page to the result in Image #1 as no argument has been passed prior. 
 
+<br>
+
+
 - Image #2
   > ![Image](StringOut2.png)
 
