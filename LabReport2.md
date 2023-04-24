@@ -9,9 +9,11 @@ A server is made where it will print out the string inputted into the path.
 **String Server Code** 
 
 - Handler Class 
+   ![Image](HandlerClass.png)
+
 
 - String Server Class 
-
+   ![Image](StringServerClass.png)
 
 
 ## Bugs: from Array Methods
