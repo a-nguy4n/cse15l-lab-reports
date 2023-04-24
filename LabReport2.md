@@ -20,14 +20,20 @@ A server is made where it will print out the string inputted into the path.
 **Results**
 
 - Image #1
-  >
+  > ![Image](StringOut1.png)
+  
+  - The methods in this code are called 'handleRequest' and main.
+     - handleRequest: This method takes the query and splits the string from the '=' and returns the      string onto the page. The argument passed in Image #1 is 'Hello'.
+     - main: The main method checks whether the argument, the port number, is a valid argument in order to create the domain. The port number here is 4000. 
+  - Passing the argument 'Hello' only results in the page turning from a blank page to the result in Image #1 as no argument has been passed prior. 
 
 - Image #2
-  >
+  > ![Image](StringOut2.png)
 
-
-
-
+   - The methods in this code are called 'handleRequest' and main.
+      - handleRequest: This method takes the query and splits the string from the '=' and returns the      string onto the page. The argument passed in   Image #2 is 'How are you'.
+     - main: The main method checks whether the argument, the port number, is a valid argument in order to create the domain. The port number here is 4000. 
+   - Passing the argument 'How are you' results in the page adding a second line of 'How are you' because outside the method the instance variable "line" is set. And within the method, in the second "if statement" on line 19, essentially adds onto the current argument to the previous. 
 
 
 
@@ -117,3 +123,7 @@ For instance, list {1,2,3,4,5} will now correctly swap/reverse to {5,4,3,2,1}.
 
 
 ## What I've Learned 
+
+- In lab 2, I learned that the query in a URL can be passed as an argument to return/print on a screen. For example, returning a string from the query or incrementing and adding the increments. Furthermore, learned about the format() method and its importance in formatting how we want the query argument to be printed on the screen. 
+
+- In lab 3, I learned that certain tests can "pass" buggy code, and that edge cases are best to catch the bugs in the code. Moreover, print statements are useful in pinpointing the issue in the code in order to debug. 
