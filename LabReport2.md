@@ -65,6 +65,21 @@ A server is made where it will print out the string inputted into the path.
      - handleRequest: This method takes the query and splits the string from the '=' and returns the      string onto the page. The argument passed in Image #1 is 'Hello'.
      - main: The main method checks whether the argument, the port number, is a valid argument in order to create the domain. The port number here is 4000. 
   - Passing the argument 'Hello' only results in the page turning from a blank page to the result in Image #1 as no argument has been passed prior. 
+  -  **URL Components**
+      - Domain is: localhost:4000
+      - Path is: add-message
+      - Query is: ?s=Hello
+  - **How Request is Handled by Handler:**
+     - The request is handled piece by piece from the components of the URL (listed above). 
+     - First, from the Handler Class, the "if" statements determine whether the path matches the given parameter. When it the pathway
+       matches that parameter from the "if" statement it moves onto the next line.
+         - If the path is "\" then it will simply return that specific line.
+         - Then if the path is "/add-message", then Handler will continue to process other components of the URL accordingly. 
+     - Now, Handler will determine the path's message by checking if the path contains the keyword. In this case, it is "add" 
+     - Because the path contains "add", then Handler will split the query. It will split the "=". As a result, the string split from the "=" is set into        String[] parameters. 
+     - Following the split of the query, Handler will check the whether the split in the string list matches a key letter, "s". 
+     - Here, the query does contain an "s" and after split, it does match the Handler condition. So, then it stores the parameter[1] value inside String        input. Concatenate the returned line with a "\n", which is a space.
+     - Finally, it will format the line variable and return if properly valid. Hence, Hello is returned. 
 
 <br>
 
@@ -76,7 +91,21 @@ A server is made where it will print out the string inputted into the path.
       - handleRequest: This method takes the query and splits the string from the '=' and returns the      string onto the page. The argument passed in   Image #2 is 'How are you'.
      - main: The main method checks whether the argument, the port number, is a valid argument in order to create the domain. The port number here is 4000. 
    - Passing the argument 'How are you' results in the page adding a second line of 'How are you' because outside the method the instance variable "line" is set. And within the method, in the second "if statement" on line 19, essentially adds onto the current argument to the previous. 
-
+   - **URL Componenets**
+      - Domain is: localhost:4000
+      - Path is: add-message
+      - Query is: ?s=How%20are%20you
+   - **How Request is Handled by Handler:**
+     - The request is handled piece by piece from the components of the URL (listed above). 
+     - First, from the Handler Class, the "if" statements determine whether the path matches the given parameter. When it the pathway
+       matches that parameter from the "if" statement it moves onto the next line.
+         - If the path is "\" then it will simply return that specific line.
+         - Then if the path is "/add-message", then Handler will continue to process other components of the URL accordingly. 
+     - Now, Handler will determine the path's message by checking if the path contains the keyword. In this case, it is "add" 
+     - Because the path contains "add", then Handler will split the query. It will split the "=". As a result, the string split from the "=" is set into        String[] parameters. 
+     - Following the split of the query, Handler will check the whether the split in the string list matches a key letter, "s". 
+     - Here, the query does contain an "s" and after split, it does match the Handler condition. So, then it stores the parameter[1] value inside String        input. Concatenate the returned line with a "\n", which is a space.
+     - Finally, it will format the line variable and return if properly valid. Hence, "How are you" is returned. 
 
 
 ## Bugs: from Array Methods
