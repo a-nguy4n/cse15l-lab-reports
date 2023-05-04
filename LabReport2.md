@@ -9,13 +9,52 @@ A server is made where it will print out the string inputted into the path.
 **String Server Code** 
 
 - Handler Class 
-   > ![Image](HandlerClass.png)
+   
+   ```
+   import java.io.IOException; 
+   import java.net.URI;
+
+   class Handler implements URLHandler{
+      String line = "";
+      public String handleRequest(URI url){
+         if (url.getPath().equals("/")){
+            return line;
+         }
+         if (url.getPath().equals("/add-message")){
+            System.out.println("Path: " + url.getPath());
+            if (url.getPath().contains("/add")){
+                String[] parameters = url.getQuery().split("=");
+                if(parameters[0].equals("s")){
+                    String input = parameters[1];
+                    line = line + input + "\n";
+                    return String.fortmat(line);
+                }
+             }
+          }
+        return "404 Not Found!";
+      }
+    }
+   ```
   
   <br>
   
   
 - String Server Class 
-   > ![Image](StringServerClass.png)
+   
+  ```
+  class StringServer{
+    public static void main(String[] args) throws IOException{
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+        int port = Integer.parseInt(args[0]);
+        Server.start(port, new Handler());
+    }
+  }
+  
+  
+  ```
 
 **Results**
 
