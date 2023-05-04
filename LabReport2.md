@@ -73,7 +73,7 @@ A server is made where it will print out the string inputted into the path.
      - The request is handled piece by piece from the components of the URL (listed above). 
      - First, from the Handler Class, the "if" statements determine whether the path matches the given parameter. When it the pathway
        matches that parameter from the "if" statement it moves onto the next line.
-         - If the path is "\" then it will simply return that specific line.
+         - If the path is " \ " then it will simply return that specific line.
          - Then if the path is "/add-message", then Handler will continue to process other components of the URL accordingly. 
      - Now, Handler will determine the path's message by checking if the path contains the keyword. In this case, it is "add" 
      - Because the path contains "add", then Handler will split the query. It will split the "=". As a result, the string split from the "=" is set into        String[] parameters. 
@@ -99,7 +99,7 @@ A server is made where it will print out the string inputted into the path.
      - The request is handled piece by piece from the components of the URL (listed above). 
      - First, from the Handler Class, the "if" statements determine whether the path matches the given parameter. When it the pathway
        matches that parameter from the "if" statement it moves onto the next line.
-         - If the path is "\" then it will simply return that specific line.
+         - If the path is " \ " then it will simply return that specific line.
          - Then if the path is "/add-message", then Handler will continue to process other components of the URL accordingly. 
      - Now, Handler will determine the path's message by checking if the path contains the keyword. In this case, it is "add" 
      - Because the path contains "add", then Handler will split the query. It will split the "=". As a result, the string split from the "=" is set into        String[] parameters. 
