@@ -78,7 +78,7 @@ A server is made where it will print out the string inputted into the path.
      - Now, Handler will determine the path's message by checking if the path contains the keyword. In this case, it is "add" 
      - Because the path contains "add", then Handler will split the query. It will split the "=". As a result, the string split from the "=" is set into        String[] parameters. 
      - Following the split of the query, Handler will check the whether the split in the string list matches a key letter, "s". 
-     - Here, the query does contain an "s" and after split, it does match the Handler condition. So, then it stores the parameter[1] value inside String        input. Concatenate the returned line with a "\n", which is a space.
+     - Here, the query does contain an "s" and after split, it does match the Handler condition. So, then it stores the parameters[1] value inside     String input. It concatenates the returned line with a "\n", which is a space.
      - Finally, it will format the line variable and return if properly valid. Hence, Hello is returned. 
 
 <br>
@@ -104,7 +104,7 @@ A server is made where it will print out the string inputted into the path.
      - Now, Handler will determine the path's message by checking if the path contains the keyword. In this case, it is "add" 
      - Because the path contains "add", then Handler will split the query. It will split the "=". As a result, the string split from the "=" is set into        String[] parameters. 
      - Following the split of the query, Handler will check the whether the split in the string list matches a key letter, "s". 
-     - Here, the query does contain an "s" and after split, it does match the Handler condition. So, then it stores the parameter[1] value inside String        input. Concatenate the returned line with a "\n", which is a space.
+     - Here, the query does contain an "s" and after split, it does match the Handler condition. So, then it stores the parameters[1] value inside   String input. It concatenates the returned line with a "\n", which is a space.
      - Finally, it will format the line variable and return if properly valid. Hence, "How are you" is returned. 
 
 
