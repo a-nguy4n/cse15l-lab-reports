@@ -58,7 +58,7 @@ Here, there will be some command-line options exploring the use of *find* in the
   ./plos/pmed.0020226.txt
   ```
   
- ## find -regex 
+## Ways to Use *find* 
  
  - Using find -type allows the user to search for specific filetypes with the given pattern. This is useful because users can now easily
  lookup certain specific group of files that contain that given pattern. 
