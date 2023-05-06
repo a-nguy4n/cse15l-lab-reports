@@ -8,4 +8,4 @@ Lab Report #2: [link](https://a-nguy4n.github.io/cse15l-lab-reports/LabReport2.h
 <br>
 
 
-Lab Report #3: [link](https://a-nguy4n.github.io/cse15l-lab-reports/LabReport3.html)
+Lab Report #3: [link](https://github.com/a-nguy4n/cse15l-lab-reports/blob/main/LabReport3.md)
