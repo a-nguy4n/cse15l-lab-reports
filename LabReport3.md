@@ -143,7 +143,7 @@ Here, there will be some command-line options exploring the use of *find* in the
   ```
   
 ## locate [pattern/option]
- -The command locate is an alternative to find and it will search the locate database. Then it will return a list of all files and 
+ - The command locate is an alternative to find and it will search the locate database. Then it will return a list of all files and 
   directories that match the search term or given pattern.
 
 **Example 1:** locate 11.txt
@@ -176,7 +176,7 @@ Here, there will be some command-line options exploring the use of *find* in the
   
 - Output 
   ```
- Database /var/lib/mlocate/mlocate.db:
+  Database /var/lib/mlocate/mlocate.db:
         38736 directories
         367939 files
         20320690 bytes in file names
