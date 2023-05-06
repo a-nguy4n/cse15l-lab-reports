@@ -14,7 +14,7 @@ Here, there will be some command-line options exploring the use of *find* in the
  - find -type
  - find -regex 
  - find [directory name] -type f -mtime [some time #] 
- - find -
+ - Alternate to find: locate [some pattern] 
 
 ## find -type
 - Using find -type allows the user to search for specific filetypes. 
