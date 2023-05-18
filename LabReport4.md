@@ -9,13 +9,13 @@ and using VIM to edit and save the file.
    
    
   2) Go to the repository's settings 
-     > ![Image](GitSettings.png)
+     >![Image](GitSettings.png)
   <br>
   
   
   3) Scroll all the way down and click on the button 'Delete this repository'. 
      This will delete any exiting forks of the repository. 
-     > ![Image](DeleteRepos..png)
+     >![Image](DeleteRepos..png)
   <br>
   
   
@@ -57,7 +57,7 @@ and using VIM to edit and save the file.
   git clone git@github.com:a-nguy4n/lab7.git
   ```
 2) Use the command **ls** to check if the repository has been cloned into the account. The directory name **lab7** should be listed. 
-   > ![Image](Lab7Check.png)
+   >![Image](Lab7Check.png)
    
    - If the name of directory is shown in the output, cloning is a success!
 
@@ -68,7 +68,7 @@ and using VIM to edit and save the file.
   ```
 
 4) Once the directory has changed into that repository, use command **ls** to see the files inside. 
-   > ![Image](Lab7LS.png)
+   >![Image](Lab7LS.png)
 
   - By doing this, you can gain access to the files in order to follow the next steps to test and edit. 
 
