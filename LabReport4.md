@@ -28,7 +28,7 @@ and using VIM to edit and save the file.
 ## Step 2: Setup - Fork the repository
 
   1) Follow this [link](https://github.com/ucsd-cse15l-s23/lab7) to fork Lab 7's repository. 
-    > ![Image](Forking7.png)
+    >![Image](Forking7.png)
 <br>
 
 
