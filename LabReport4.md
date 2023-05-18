@@ -25,12 +25,18 @@ and using VIM to edit and save the file.
 
 ## Step 2: Setup - Fork the repository
 
+  1) Follow this [link](https://github.com/ucsd-cse15l-s23/lab7) to fork Lab 7's repository. 
+    > ![Image]()
 
 
 ## Step 3: Start the timer!
 
+  1) Begin a timer to determine your baseline in logging in, cloning, and editing the code. 
+
 
 ## Step 4: Log into ieng6
+
+  1) 
 
 
 ## Step 5: Clone your fork of the repository from your Github account
