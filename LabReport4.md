@@ -52,30 +52,51 @@ and using VIM to edit and save the file.
 
 
 ## Step 5: Clone your fork of the repository from your Github account
-1) Use the command: **git clone < ssh link >** to clone the repository from your GitHub account into your ieng6 account
+  1) Use the command: **git clone < ssh link >** to clone the repository from your GitHub account into your ieng6 account
   ```
   git clone git@github.com:a-nguy4n/lab7.git
   ```
-2) Use the command **ls** to check if the repository has been cloned into the account. The directory name **lab7** should be listed. 
-   >![Image](Lab7Check.png)
+  2) Use the command **ls** to check if the repository has been cloned into the account. The directory name **lab7** should be listed. 
+    >![Image](Lab7Check.png)
    
-   - If the name of directory is shown in the output, cloning is a success!
+    - If the name of directory is shown in the output, cloning is a success!
 
 
-3) Then, use the command **cd** to get into the repository and access its files. 
+  3) Then, use the command **cd** to get into the repository and access its files. 
   ```
   cd lab7/
   ```
 
-4) Once the directory has changed into that repository, use command **ls** to see the files inside. 
-   >![Image](Lab7LS.png)
+  4) Once the directory has changed into that repository, use command **ls** to see the files inside. 
+     By doing this, you can gain access to the files in order to follow the next steps to test and edit. 
+    
+    >![Image](Lab7LS.png)
 
-  - By doing this, you can gain access to the files in order to follow the next steps to test and edit. 
+    
 
 <br>
 
 
 ## Step 6: Run the tests, demonstrating that they fail
+  1) To run a test use the command: **bash test.sh** . The command will run tests on the 'ListExamples.java' file.
+  - Input
+    ```
+    bash test.sh
+    ```
+  - Output 
+    ```
+    JUnit version 4.13.2
+    ..E
+    Time: 0.534
+    There was 1 failure:
+    1) testMerge2(ListExamplesTests)
+    org.junit.runners.model.TestTimedOutException: test timed out after 500 milliseconds
+        at ListExamples.merge(ListExamples.java:44)
+        at ListExamplesTests.testMerge2(ListExamplesTests.java:19)
+
+    FAILURES!!!
+    Tests run: 2,  Failures: 1
+    ```
 
 <br>
 
