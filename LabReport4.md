@@ -6,11 +6,11 @@ and using VIM to edit and save the file.
   
   1) Go into your GitHub account and into the repository.
   2) Go to the repository's settings 
-     > ![Image][]
+     > ![Image][DeleteRepos..png]
 
 
   4) Scroll all the way down and click on the button ' '. This will delete any exiting forks of the repository. 
-     > ![Image][]
+     > ![Image][GitSettings.png]
 
 
 ## Step 2: Setup - Fork the repository
