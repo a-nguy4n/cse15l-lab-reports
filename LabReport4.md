@@ -5,13 +5,23 @@ and using VIM to edit and save the file.
 ## Step 1: Setup - Delete any existing forks of the repository you have on your account
   
   1) Go into your GitHub account and into the repository.
+  <br>
+   
+   
   2) Go to the repository's settings 
-     > ![Image][DeleteRepos..png]
-
-
-  4) Scroll all the way down and click on the button ' '. This will delete any exiting forks of the repository. 
-     > ![Image][GitSettings.png]
-
+     > ![Image](GitSettings.png)
+  <br>
+  
+  
+  3) Scroll all the way down and click on the button 'Delete this repository'. 
+     This will delete any exiting forks of the repository. 
+     > ![Image](DeleteRepos..png)
+  <br>
+  
+  
+  4) Additionally, log into the @ieng6 account. Then use the command **rm -r lab7/** to remove the directory
+     from the account in order to follow the next steps. When completed logout of the account.  
+     > ![Image](RemoveLab7.png)
 
 ## Step 2: Setup - Fork the repository
 
