@@ -28,22 +28,21 @@ and using VIM to edit and save the file.
 ## Step 2: Setup - Fork the repository
 
   1) Follow this [link](https://github.com/ucsd-cse15l-s23/lab7) to fork Lab 7's repository. 
-    >![Image](Forking7.png)
+     >![Image](Forking7.png)
 <br>
 
 
 ## Step 3: Start the timer!
 
-  1) Begin a timer to determine your baseline in logging in, cloning, and editing the code. 
-<br>
+  1) Begin a timer to determine your baseline in logging in, cloning, and editing the code. <br>
 
 
 ## Step 4: Log into ieng6
 
   1) Use the command: **ssh cs15lsp23__@ieng6.ucsd.edu** to remote login. 
-  ```
-  ssh cs15lsp23il@ieng6.ucsd.edu
-  ```
+     ```
+     ssh cs15lsp23il@ieng6.ucsd.edu
+     ```
   
   - With ssh you can remote login to your account in order to begin the cloning process of the repository.
     
@@ -53,55 +52,82 @@ and using VIM to edit and save the file.
 
 ## Step 5: Clone your fork of the repository from your Github account
   1) Use the command: **git clone < ssh link >** to clone the repository from your GitHub account into your ieng6 account
-  ```
-  git clone git@github.com:a-nguy4n/lab7.git
-  ```
+     ```
+     git clone git@github.com:a-nguy4n/lab7.git
+     ```
+     
   2) Use the command **ls** to check if the repository has been cloned into the account. The directory name **lab7** should be listed. 
-    >![Image](Lab7Check.png)
+     >![Image](Lab7Check.png)
    
-    - If the name of directory is shown in the output, cloning is a success!
-
+     - If the name of directory is shown in the output, cloning is a success!
 
   3) Then, use the command **cd** to get into the repository and access its files. 
-  ```
-  cd lab7/
-  ```
+     ```
+     cd lab7/
+     ```
 
   4) Once the directory has changed into that repository, use command **ls** to see the files inside. 
      By doing this, you can gain access to the files in order to follow the next steps to test and edit. 
-    
-    >![Image](Lab7LS.png)
-
-    
-
+     
+     >![Image](Lab7LS.png) 
+     
 <br>
 
 
 ## Step 6: Run the tests, demonstrating that they fail
-  1) To run a test use the command: **bash test.sh** . The command will run tests on the 'ListExamples.java' file.
-  - Input
-    ```
-    bash test.sh
-    ```
-  - Output 
-    ```
-    JUnit version 4.13.2
-    ..E
-    Time: 0.534
-    There was 1 failure:
-    1) testMerge2(ListExamplesTests)
-    org.junit.runners.model.TestTimedOutException: test timed out after 500 milliseconds
-        at ListExamples.merge(ListExamples.java:44)
-        at ListExamplesTests.testMerge2(ListExamplesTests.java:19)
+  1) To run a test use the command: **bash test.sh** . 
+     - Input
+       ```
+       bash test.sh
+       ```
+     - Output 
+       ```
+       JUnit version 4.13.2
+       ..E
+       Time: 0.534
+       There was 1 failure:
+       1) testMerge2(ListExamplesTests)
+       org.junit.runners.model.TestTimedOutException: test timed out after 500 milliseconds
+            at ListExamples.merge(ListExamples.java:44)
+            at ListExamplesTests.testMerge2(ListExamplesTests.java:19)
 
-    FAILURES!!!
-    Tests run: 2,  Failures: 1
-    ```
+       FAILURES!!!
+       Tests run: 2,  Failures: 1
+       ```
+       
+     >![Image](FailTest.png) 
 
-<br>
+  - The command **bash test.sh** essentially will run tests on the 'ListExamples.java' file through JUnit and 
+    will output either a pass or fail on the test cases. If there is a pass, then it will state how many tests have been run
+    and passed. However if there is a failure, the output will show how many and list which line specifically where the test has
+    failed and the reasoning. <br>
 
 
 ## Step 7: Edit the code file to fix the failing test
+  1) To edit the code of the file, use the command: **vim ListExamples.java**. After running the command,it 
+     will open up to the contents of the file containing code that must be edited. 
+     >![Image](OpenContents.png)
+  
+  2) Next follow these steps in order to edit the code: 
+     
+     1. Starting from the beginning line, hit the key **j** until you reach these code lines:
+         >![Image](CodeLine.png)
+         
+         -The **j** key essentially moves the cursor downwards so that the user may access 
+          the lines below in order to edit them. 
+     
+     2. With the cursor on the line of ' index1 += 1; ' hit the **l** key to move the cursor 
+        onto the number 1. 
+        >![Image](CursorOne.png)
+
+         -The **l** key moves the cursor to the right so that the user may access and edit any text
+          to the right side. 
+    
+     
+     
+     3. 
+
+
 
 <br>
 
