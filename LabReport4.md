@@ -58,7 +58,8 @@ and using VIM to edit and save the file.
   ```
 2) Use the command **ls** to check if the repository has been cloned into the account. The directory name **lab7** should be listed. 
    > ![Image](Lab7Check.png)
-
+   
+   - If the name of directory is shown in the output, cloning is a success!
 
 
 3) Then, use the command **cd** to get into the repository and access its files. 
@@ -69,6 +70,7 @@ and using VIM to edit and save the file.
 4) Once the directory has changed into that repository, use command **ls** to see the files inside. 
    > ![Image](Lab7LS.png)
 
+  - By doing this, you can gain access to the files in order to follow the next steps to test and edit. 
 
 <br>
 
