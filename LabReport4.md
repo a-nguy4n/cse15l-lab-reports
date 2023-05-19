@@ -91,9 +91,10 @@ and using VIM to edit and save the file.
 
        FAILURES!!!
        Tests run: 2,  Failures: 1
+       
        ```
        
-      ![Image](FailTest.png) 
+  ![Image](FailTest.png) 
 
   - The command **bash test.sh** essentially will run tests on the 'ListExamples.java' file through JUnit and 
     will output either a pass or fail on the test cases. If there is a pass, then it will state how many tests have been run
