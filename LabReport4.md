@@ -197,9 +197,7 @@ and using VIM to edit and save the file.
   ```
   git add ListExamples.java
   ``` 
-  <br>
   
-
    - This command adds the newly edited file into the repository. <br>
      
      
