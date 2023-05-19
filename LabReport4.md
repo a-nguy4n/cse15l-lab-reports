@@ -8,7 +8,7 @@ and using VIM to edit and save the file.
   <br>
    
    
-  2) Go to the repository's settings 
+  2) Go to the repository's settings. <br>
   
   
      ![Image](GitSettings.png)
