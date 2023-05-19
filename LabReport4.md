@@ -107,10 +107,11 @@ and using VIM to edit and save the file.
 ## Step 7: Edit the code file to fix the failing test
   
   1) To edit the code of the file, use the command: **vim ListExamples.java**. After running the command,it 
-     will open up to the contents of the file containing code that must be edited. <br>
+     will open up to the contents of the file containing code that must be edited. 
+   <br>
      
      
-     ![Image](OpenContents.png) <br>
+   ![Image](OpenContents.png) <br>
   
   
   2) Next follow these steps in order to edit the code: 
@@ -170,11 +171,10 @@ and using VIM to edit and save the file.
   <br>
 
 
-   - **< return >** <br>
-   
-   
+   - **< return >**
     - Runs the command and exists the file and brings the user back to the command line.
-    
+   <br>
+     
      
   2) To run the tests use the command: **bash test.sh** . This command will run tests on the newly edited 'ListExamples.java' file 
      through JUnit. And now all test cases have passed! 
