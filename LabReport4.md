@@ -40,15 +40,12 @@ and using VIM to edit and save the file.
 ## Step 4: Log into ieng6
 
   1) Use the command: **ssh cs15lsp23__@ieng6.ucsd.edu** to remote login. 
-  <br>
-  
-  
      ```
-      ssh cs15lsp23il@ieng6.ucsd.edu
+     ssh cs15lsp23il@ieng6.ucsd.edu
      ```
-  
+     
   -With ssh you can remote login to your account in order to begin the cloning process of the repository.
-<br>
+  <br>
 
 
 ## Step 5: Clone your fork of the repository from your Github account
