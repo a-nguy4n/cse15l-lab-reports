@@ -179,7 +179,7 @@ and using VIM to edit and save the file.
      <br>  
      
      
-     ![Image](PassTest.png)
+  ![Image](PassTest.png)
      
 <br>
     
