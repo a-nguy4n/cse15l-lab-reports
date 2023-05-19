@@ -12,7 +12,6 @@ and using VIM to edit and save the file.
   
   
      ![Image](GitSettings.png)
-  <br>
   
   
   3) Scroll all the way down and click on the button 'Delete this repository'. 
