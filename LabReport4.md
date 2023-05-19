@@ -178,7 +178,9 @@ and using VIM to edit and save the file.
 
 ## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
 
-  1) First in the command line type: 
+  1) First in the command line type: <br>
+
+
      ```
      git add ListExamples.java
      ``` 
