@@ -170,7 +170,9 @@ and using VIM to edit and save the file.
   <br>
 
 
-   - **< return >**
+   - **< return >** <br>
+   
+   
     - Runs the command and exists the file and brings the user back to the command line.
     
      
