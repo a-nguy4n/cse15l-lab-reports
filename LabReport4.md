@@ -145,16 +145,16 @@ and using VIM to edit and save the file.
           - Once done editing, the < escape > key allows user to leave "Insertion Mode" and back into
             "Normal Mode"
             
-    - **The results:**
-       - Before <br>
+  **The results:**
+  - Before <br>
+  
+  
+  ![Image](CursorOne.png)
+
+  - After <br>
 
 
-       ![Image](CursorOne.png)
-
-       - After <br>
-
-
-       ![Image](EditTwo.png)
+  ![Image](EditTwo.png)
           
 <br>
 
