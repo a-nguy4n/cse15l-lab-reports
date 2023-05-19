@@ -195,27 +195,31 @@ and using VIM to edit and save the file.
    <br>
    
    
-   - This command will commit the edited file with a message. **-m** is the command to add a message using **""**. 
+  - This command will commit the edited file with a message. **-m** is the command to add a message using **""**. 
      In the block code, the message choosen was "index changed" to summarize the edits made. 
        
-   - The output after pressing < enter > to the command is: 
-     ![Image](Commit.png)
+  - The output after pressing < enter > to the command is: 
+  
+  ![Image](Commit.png)
+  
+  
+  
   
   3) Finally, type in: 
   <br>
   
   
-    ```
-    git push origin
-    ```
+  ```
+  git push origin
+  ```
      
      
-   - The command will now push the edits into the forked repository with the updates. 
+  - The command will now push the edits into the forked repository with the updates. 
 
-   - The output after pressing < enter > to the command is: <br>
+  - The output after pressing < enter > to the command is: <br>
        
        
-     ![Image](PushOrigin.png)
+  ![Image](PushOrigin.png)
 
 
 
