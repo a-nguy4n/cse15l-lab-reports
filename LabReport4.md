@@ -189,7 +189,8 @@ and using VIM to edit and save the file.
 
 ## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
 
-  1) First in the command line type: <br>
+  1) First in the command line type: 
+  <br>
 
 
      ```
@@ -202,6 +203,9 @@ and using VIM to edit and save the file.
      
      
   2) Secondly, type in: 
+  <br>
+  
+  
      ```
      git commit -m "index changed"
      ```
