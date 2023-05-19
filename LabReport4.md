@@ -165,13 +165,15 @@ and using VIM to edit and save the file.
      Type in the following: <br>
      
      
-   - **:wq** <br>
+   - **:wq** 
+   <br>
 
 
      - This will essentially save the file with the new edits made. 
 
 
-    - < return > <br>
+    - < return > 
+    <br>
 
 
       - Runs the command and exists the file and brings the user back to the command line.
