@@ -162,16 +162,27 @@ and using VIM to edit and save the file.
 ## Step 8: Run the tests, demonstrating that they now succeed.
 
   1) Before running the tests, it is important to save the edited file. 
-     Type in the following: 
-     - **:wq** 
-       - This will essentially save the file with the new edits made. 
-     - < return >
-       - Runs the command and exists the file and brings the user back to the command line.
+     Type in the following: <br>
+     
+     
+   - **:wq** <br>
+
+
+     - This will essentially save the file with the new edits made. 
+
+
+    - < return > <br>
+
+
+      - Runs the command and exists the file and brings the user back to the command line.
      
   2) To run the tests use the command: **bash test.sh** . This command will run tests on the newly edited 'ListExamples.java' file 
-     through JUnit. And now all test cases have passed!
+     through JUnit. And now all test cases have passed! 
+     <br>  
+     
      
      ![Image](PassTest.png)
+     
 <br>
     
 
