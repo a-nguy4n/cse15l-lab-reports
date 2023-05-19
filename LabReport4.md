@@ -21,8 +21,7 @@ and using VIM to edit and save the file.
   
   4) Additionally, log into the @ieng6 account. Then use the command **rm -r lab7/** to remove the directory
      from the account in order to follow the next steps. When this is completed, log out of the account. 
-     
-     
+    
      ![Image](RemoveLab7.png)
   
   <br>
