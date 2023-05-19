@@ -52,31 +52,31 @@ and using VIM to edit and save the file.
   1) Use the command: **git clone < ssh link >** to clone the repository from your GitHub account into 
      your ieng6 account. <br>
      
-     
-     ```
-     git clone git@github.com:a-nguy4n/lab7.git
-     ```
+   
+   ```
+    git clone git@github.com:a-nguy4n/lab7.git
+   ```
      
   2) Use the command **ls** to check if the repository has been cloned into the account. 
      The directory name **lab7** should be listed. 
       
-     ![Image](Lab7Check.png)
+   ![Image](Lab7Check.png)
      
      
-     *If the name of directory is shown in the output, cloning is a success!*
+   *If the name of directory is shown in the output, cloning is a success!*
 
   3) Then, use the command **cd** to get into the repository and access its files. <br>
 
 
-     ```
-     cd lab7/
-     ```
+   ```
+   cd lab7/
+   ```
      
 
   4) Once the directory has changed into that repository, use command **ls** to see the files inside. 
      By doing this, you can gain access to the files in order to follow the next steps to test and edit. 
      
-     ![Image](Lab7LS.png) 
+   ![Image](Lab7LS.png) 
      
   <br>
 
