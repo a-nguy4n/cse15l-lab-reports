@@ -111,41 +111,41 @@ and using VIM to edit and save the file.
      
    ![Image](OpenContents.png)
   
-  2) Next follow these steps in order to edit the code: 
-
-     1. Starting from the beginning line, hit the key **j** until you reach these code lines: 
+  2) Next follow these steps in order to edit the code:
+ 
+      1. Starting from the beginning line, hit the key **j** until you reach these code lines:
         
         ![Image](CodeLine.png)
        
-       - The **j** key essentially moves the cursor downwards so that the user may access the lines below in order to edit them. 
+        - The **j** key essentially moves the cursor downwards so that the user may access the lines below in order to edit them. 
       
-     2. With the cursor on the line of ' index1 += 1; ' hit the **L** key to move the cursor onto the number 1.
+      2. With the cursor on the line of ' index1 += 1; ' hit the **L** key to move the cursor onto the number 1.
         
         ![Image](CursorOne.png)
      
-       - The **L** key moves the cursor to the right so that the user may access and edit any text to the right side. 
+        - The **L** key moves the cursor to the right so that the user may access and edit any text to the right side. 
    
-     3. Press the keys in this order:
+      3. Press the keys in this order:
       
-       - **i**
-       
-             - User will enter into "Insertion Mode" which allows them to edit the text
+        - **i**
+        
+           User will enter into "Insertion Mode" which allows them to edit the text
                 
-      - **< backspace >** 
-       
-        - By backspacing, user will not delete the wrong character for the necessary edit.
+        - **< backspace >**
+        
+           By backspacing, user will not delete the wrong character for the necessary edit.
              
-      - **< delete >**
-       
-        - This should delete the number 1 from **index1**
+        - **< delete >**  
+        
+           This should delete the number 1 from **index1**
              
-      - **<2>**
-       
-        - Typing in '2' will edit **index1** to **index2**. This is the correction being made.
+        - **<2>**
+        
+           Typing in '2' will edit **index1** to **index2**. This is the correction being made.
              
-      - **< escape >**
-       
-        - Once done editing, the < escape > key allows user to leave "Insertion Mode" and back into "Normal Mode"
+        - **< escape >**
+        
+           Once done editing, the < escape > key allows user to leave "Insertion Mode" and back into "Normal Mode"
             
   **The results:**
   - Before 
