@@ -167,7 +167,7 @@ and using VIM to edit and save the file.
      
      
    - **:wq**  
-    - This will essentially save the file with the new edits made. 
+     - This will essentially save the file with the new edits made. 
   <br>
 
 
