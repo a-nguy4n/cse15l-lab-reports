@@ -207,7 +207,6 @@ and using VIM to edit and save the file.
     ```
     git push origin
     ```
-    <br>
      
      
    - The command will now push the edits into the forked repository with the updates. 
