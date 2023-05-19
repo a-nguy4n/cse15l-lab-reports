@@ -105,23 +105,29 @@ and using VIM to edit and save the file.
     
   ## Step 7: Edit the code file to fix the failing test
   1) To edit the code of the file, use the command: **vim ListExamples.java**. After running the command,it 
-     will open up to the contents of the file containing code that must be edited. 
+     will open up to the contents of the file containing code that must be edited. <br>
+     
+     
      ![Image](OpenContents.png) <br>
   
   
   2) Next follow these steps in order to edit the code: 
      
-     1. Starting from the beginning line, hit the key **j** until you reach these code lines:
+     1. Starting from the beginning line, hit the key **j** until you reach these code lines: <br>
+
+
          ![Image](CodeLine.png)
          
-         -The **j** key essentially moves the cursor downwards so that the user may access 
+         - The **j** key essentially moves the cursor downwards so that the user may access 
           the lines below in order to edit them. 
      
      2. With the cursor on the line of ' index1 += 1; ' hit the **L** key to move the cursor 
-        onto the number 1. 
+        onto the number 1. <br>
+        
+        
         ![Image](CursorOne.png)
 
-         -The **L** key moves the cursor to the right so that the user may access and edit any text
+         - The **L** key moves the cursor to the right so that the user may access and edit any text
           to the right side. 
     
      
@@ -139,11 +145,16 @@ and using VIM to edit and save the file.
             "Normal Mode"
             
       - **The results:**
-        - Before
+        - Before <br>
+
+
           ![Image](CursorOne.png)
 
-        - After
+        - After <br>
+
+
           ![Image](EditTwo.png)
+          
 <br>
 
 
