@@ -112,8 +112,11 @@ and using VIM to edit and save the file.
    ![Image](OpenContents.png)
   
   2) Next follow these steps in order to edit the code: 
+
      1. Starting from the beginning line, hit the key **j** until you reach these code lines: 
+        
         ![Image](CodeLine.png)
+       
        - The **j** key essentially moves the cursor downwards so that the user may access the lines below in order to edit them. 
       
      2. With the cursor on the line of ' index1 += 1; ' hit the **L** key to move the cursor onto the number 1.
