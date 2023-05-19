@@ -166,17 +166,16 @@ and using VIM to edit and save the file.
      
      
    - **:wq** 
+   <br> 
+    
+    - This will essentially save the file with the new edits made. 
+
+
+   - < return > 
    <br>
-
-
-     - This will essentially save the file with the new edits made. 
-
-
-    - < return > 
-    <br>
-
-
-      - Runs the command and exists the file and brings the user back to the command line.
+    
+    - Runs the command and exists the file and brings the user back to the command line.
+    
      
   2) To run the tests use the command: **bash test.sh** . This command will run tests on the newly edited 'ListExamples.java' file 
      through JUnit. And now all test cases have passed! 
