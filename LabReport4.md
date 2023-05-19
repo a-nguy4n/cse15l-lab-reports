@@ -127,9 +127,9 @@ and using VIM to edit and save the file.
    
      3. Press the keys in this order:
       
-      - **i**
+       - **i**
        
-        - User will enter into "Insertion Mode" which allows them to edit the text
+             - User will enter into "Insertion Mode" which allows them to edit the text
                 
       - **< backspace >** 
        
