@@ -127,20 +127,18 @@ and using VIM to edit and save the file.
    
       3. Press the keys in this order:
       
-        - **i** : User will enter into "Insertion Mode" which allows them to edit the text
+        - i : User will enter into "Insertion Mode" which allows them to edit the text
                 
-        - **< backspace >**: By backspacing, user will not delete the wrong character for the necessary edit.
+        - < backspace >: By backspacing, user will not delete the wrong character for the necessary edit.
              
-        - **< delete >**: This should delete the number 1 from **index1**
+        - < delete >: This should delete the number 1 from **index1**
              
-        - **<2>**
-        
-           Typing in '2' will edit **index1** to **index2**. This is the correction being made.
+        - <2> :   Typing in '2' will edit **index1** to **index2**. This is the correction being made.
              
-        - **< escape >**
-        
-           Once done editing, the < escape > key allows user to leave "Insertion Mode" and back into "Normal Mode"
+        - < escape > : Once done editing, the < escape > key allows user to leave "Insertion Mode" and back into "Normal Mode"
             
+        
+         
   **The results:**
   - Before 
     
