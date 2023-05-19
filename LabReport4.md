@@ -9,28 +9,29 @@ and using VIM to edit and save the file.
    
    
   2) Go to the repository's settings <br>
-
-
-     >![Image](GitSettings.png)
+  
+  
+     ![Image](GitSettings.png)
   <br>
   
   
   3) Scroll all the way down and click on the button 'Delete this repository'. 
      This will delete any exiting forks of the repository. 
-     >![Image](DeleteRepos..png)
-  <br>
+     ![Image](DeleteRepos..png)
   
   
   4) Additionally, log into the @ieng6 account. Then use the command **rm -r lab7/** to remove the directory
-     from the account in order to follow the next steps. When this is completed, log out of the account.  
-     >![Image](RemoveLab7.png)
-<br>
+     from the account in order to follow the next steps. When this is completed, log out of the account. <br>
+     
+     
+     ![Image](RemoveLab7.png)
+  <br>
 
 
 ## Step 2: Setup - Fork the repository
 
   1) Follow this [link](https://github.com/ucsd-cse15l-s23/lab7) to fork Lab 7's repository. 
-     >![Image](Forking7.png)
+     ![Image](Forking7.png)
 <br>
 
 
@@ -59,7 +60,7 @@ and using VIM to edit and save the file.
      ```
      
   2) Use the command **ls** to check if the repository has been cloned into the account. The directory name **lab7** should be listed. 
-     >![Image](Lab7Check.png)
+      ![Image](Lab7Check.png)
    
      - If the name of directory is shown in the output, cloning is a success!
 
@@ -71,7 +72,7 @@ and using VIM to edit and save the file.
   4) Once the directory has changed into that repository, use command **ls** to see the files inside. 
      By doing this, you can gain access to the files in order to follow the next steps to test and edit. 
      
-     >![Image](Lab7LS.png) 
+      ![Image](Lab7LS.png) 
      
 <br>
 
@@ -97,7 +98,7 @@ and using VIM to edit and save the file.
        Tests run: 2,  Failures: 1
        ```
        
-     >![Image](FailTest.png) 
+      ![Image](FailTest.png) 
 
   - The command **bash test.sh** essentially will run tests on the 'ListExamples.java' file through JUnit and 
     will output either a pass or fail on the test cases. If there is a pass, then it will state how many tests have been run
@@ -108,20 +109,20 @@ and using VIM to edit and save the file.
 ## Step 7: Edit the code file to fix the failing test
   1) To edit the code of the file, use the command: **vim ListExamples.java**. After running the command,it 
      will open up to the contents of the file containing code that must be edited. 
-     >![Image](OpenContents.png) <br>
+     ![Image](OpenContents.png) <br>
   
   
   2) Next follow these steps in order to edit the code: 
      
      1. Starting from the beginning line, hit the key **j** until you reach these code lines:
-         >![Image](CodeLine.png)
+         ![Image](CodeLine.png)
          
          -The **j** key essentially moves the cursor downwards so that the user may access 
           the lines below in order to edit them. 
      
      2. With the cursor on the line of ' index1 += 1; ' hit the **L** key to move the cursor 
         onto the number 1. 
-        >![Image](CursorOne.png)
+        ![Image](CursorOne.png)
 
          -The **L** key moves the cursor to the right so that the user may access and edit any text
           to the right side. 
@@ -142,10 +143,10 @@ and using VIM to edit and save the file.
             
       - **The results:**
         - Before
-         >![Image](CursorOne.png)
+          ![Image](CursorOne.png)
 
         - After
-         >![Image](EditTwo.png)
+          ![Image](EditTwo.png)
 <br>
 
 
@@ -161,7 +162,7 @@ and using VIM to edit and save the file.
   2) To run the tests use the command: **bash test.sh** . This command will run tests on the newly edited 'ListExamples.java' file 
      through JUnit. And now all test cases have passed!
      
-     >![Image](PassTest.png)
+     ![Image](PassTest.png)
 <br>
     
 
