@@ -8,7 +8,9 @@ and using VIM to edit and save the file.
   <br>
    
    
-  2) Go to the repository's settings 
+  2) Go to the repository's settings <br>
+
+
      >![Image](GitSettings.png)
   <br>
   
@@ -148,6 +150,7 @@ and using VIM to edit and save the file.
 
 
 ## Step 8: Run the tests, demonstrating that they now succeed.
+
   1) Before running the tests, it is important to save the edited file. 
      Type in the following: 
      - **:wq** 
@@ -163,6 +166,32 @@ and using VIM to edit and save the file.
     
 
 ## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
+
+  1) First in the command line type: 
+     ```
+     git add ListExamples.java
+     ``` 
+     - This command adds the newly edited file into the repository. <br>
+     
+     
+  2) Secondly, type in: 
+     ```
+     git commit -m "index changed"
+     ```
+     - This command will commit the edited file with a message. **-m** is the command to add a message using **""**. 
+       In the block code, the message choosen was "index changed" to summarize the edits made. 
+       
+     - The output after pressing < enter > to the command is: 
+       ![Image](Commit.png)
+  
+  3) Finally, type in: 
+     ```
+     git push origin
+     ```
+     - The command will now push the edits into the forked repository with the updates. 
+
+     - The output after pressing < enter > to the command is: 
+       ![Image](PushOrigin.png)
 
 
 
