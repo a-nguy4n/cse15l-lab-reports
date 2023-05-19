@@ -123,15 +123,25 @@ and using VIM to edit and save the file.
        - The **L** key moves the cursor to the right so that the user may access and edit any text to the right side. 
    
      3. Press the keys in this order:
-       - **i** 
+      
+      - **i**
+       
         - User will enter into "Insertion Mode" which allows them to edit the text
-       - **< backspace >** 
+                
+      - **< backspace >** 
+       
         - By backspacing, user will not delete the wrong character for the necessary edit.
-       - **< delete >**
+             
+      - **< delete >**
+       
         - This should delete the number 1 from **index1**
-       - **<2>**
+             
+      - **<2>**
+       
         - Typing in '2' will edit **index1** to **index2**. This is the correction being made.
-       - **< escape >**
+             
+      - **< escape >**
+       
         - Once done editing, the < escape > key allows user to leave "Insertion Mode" and back into "Normal Mode"
             
   **The results:**
