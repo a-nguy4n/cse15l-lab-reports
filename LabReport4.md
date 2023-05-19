@@ -210,8 +210,6 @@ and using VIM to edit and save the file.
    ```
    git commit -m "index changed"
    ```
-   <br>
-   
    
   - This command will commit the edited file with a message. **-m** is the command to add a message using **""**. 
      In the block code, the message choosen was "index changed" to summarize the edits made. 
@@ -230,7 +228,6 @@ and using VIM to edit and save the file.
   ```
   git push origin
   ```
-     
      
   - The command will now push the edits into the forked repository with the updates. 
 
