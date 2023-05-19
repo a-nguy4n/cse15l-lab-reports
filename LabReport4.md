@@ -21,7 +21,7 @@ and using VIM to edit and save the file.
      from the account in order to follow the next steps. When this is completed, log out of the account. 
      ![Image](RemoveLab7.png)
 
-  
+ 
   <br>
 
 
@@ -83,41 +83,43 @@ and using VIM to edit and save the file.
 
 ## Step 6: Run the tests, demonstrating that they fail
   1) To run a test use the command: **bash test.sh** . 
-    
-    - Input
-      
-      ```
-      bash test.sh
-      ```
+  - **Input:** <br>
+
+
+  ```
+  bash test.sh
+  ```
    <br>
    
    
-    - Output 
-      
-      ```
-       JUnit version 4.13.2
-       ..E
-       Time: 0.534
-       There was 1 failure:
-       1) testMerge2(ListExamplesTests)
-       org.junit.runners.model.TestTimedOutException: test timed out after 500 milliseconds
+   - **Output:** <br>
+   
+   
+   ```
+    JUnit version 4.13.2
+    ..E
+    Time: 0.534
+    There was 1 failure:
+    1) testMerge2(ListExamplesTests)
+    org.junit.runners.model.TestTimedOutException: test timed out after 500 milliseconds
             at ListExamples.merge(ListExamples.java:44)
             at ListExamplesTests.testMerge2(ListExamplesTests.java:19)
 
-       FAILURES!!!
-       Tests run: 2,  Failures: 1
-       
-       ```
- <br>
- 
- 
- ![Image](FailTest.png) 
+     FAILURES!!!
+     Tests run: 2,  Failures: 1 
+    ```
+      <br>
+
 
  - The command **bash test.sh** essentially will run tests on the 'ListExamples.java' file through JUnit and 
    will output either a pass or fail on the test cases. If there is a pass, then it will state how many tests have been run
    and passed. However if there is a failure, the output will show how many and list which line specifically where the test has
-   failed and the reasoning. <br>
+   failed and the reasoning.
+   <br>
 
+
+   ![Image](FailTest.png)
+    
 
 ## Step 7: Edit the code file to fix the failing test
   1) To edit the code of the file, use the command: **vim ListExamples.java**. After running the command,it 
