@@ -85,11 +85,15 @@ and using VIM to edit and save the file.
   1) To run a test use the command: **bash test.sh** . 
     
     - Input
+      
       ```
       bash test.sh
       ```
-       
+   <br>
+   
+   
     - Output 
+      
       ```
        JUnit version 4.13.2
        ..E
@@ -104,7 +108,9 @@ and using VIM to edit and save the file.
        Tests run: 2,  Failures: 1
        
        ```
-       
+ <br>
+ 
+ 
  ![Image](FailTest.png) 
 
  - The command **bash test.sh** essentially will run tests on the 'ListExamples.java' file through JUnit and 
