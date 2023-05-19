@@ -44,7 +44,7 @@ and using VIM to edit and save the file.
      ssh cs15lsp23il@ieng6.ucsd.edu
      ```
      
-  -With ssh you can remote login to your account in order to begin the cloning process of the repository.
+     - With ssh you can remote login to your account in order to begin the cloning process of the repository.
   <br>
 
 
