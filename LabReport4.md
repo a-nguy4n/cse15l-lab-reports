@@ -8,9 +8,8 @@ and using VIM to edit and save the file.
   <br>
    
    
-  2) Go to the repository's settings. <br>
-  
-  
+  2) Go to the repository's settings. 
+     ![Image](GitSettings.png)
   
   
   3) Scroll all the way down and click on the button 'Delete this repository'. 
@@ -20,7 +19,7 @@ and using VIM to edit and save the file.
   
   4) Additionally, log into the @ieng6 account. Then use the command **rm -r lab7/** to remove the directory
      from the account in order to follow the next steps. When this is completed, log out of the account. 
-    
+     ![Image](RemoveLab7.png)
 
   
   <br>
@@ -41,13 +40,14 @@ and using VIM to edit and save the file.
 ## Step 4: Log into ieng6
 
   1) Use the command: **ssh cs15lsp23__@ieng6.ucsd.edu** to remote login. 
+  <br>
+  
+  
      ```
      ssh cs15lsp23il@ieng6.ucsd.edu
      ```
   
-  - With ssh you can remote login to your account in order to begin the cloning process of the repository.
-    
-
+  -With ssh you can remote login to your account in order to begin the cloning process of the repository.
 <br>
 
 
