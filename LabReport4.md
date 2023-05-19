@@ -114,48 +114,47 @@ and using VIM to edit and save the file.
   
   
   2) Next follow these steps in order to edit the code: 
-     
      1. Starting from the beginning line, hit the key **j** until you reach these code lines: <br>
 
 
-         ![Image](CodeLine.png)
+     ![Image](CodeLine.png)
          
-         - The **j** key essentially moves the cursor downwards so that the user may access 
-          the lines below in order to edit them. 
+      - The **j** key essentially moves the cursor downwards so that the user may access 
+      the lines below in order to edit them. 
+      
      
      2. With the cursor on the line of ' index1 += 1; ' hit the **L** key to move the cursor 
         onto the number 1. <br>
         
         
-        ![Image](CursorOne.png)
-
-         - The **L** key moves the cursor to the right so that the user may access and edit any text
-          to the right side. 
+     ![Image](CursorOne.png)
+     
+     - The **L** key moves the cursor to the right so that the user may access and edit any text to the right side. 
     
      
      3. Press the keys in this order:
-        - **i** 
+       - **i** 
           - User will enter into "Insertion Mode" which allows them to edit the text
-        - **< backspace >** 
+       - **< backspace >** 
           - By backspacing, user will not delete the wrong character for the necessary edit.
-        - **< delete >**
+       - **< delete >**
           - This should delete the number 1 from **index1**
-        - **<2>**
+       - **<2>**
           - Typing in '2' will edit **index1** to **index2**. This is the correction being made.
-        - **< escape >**
+       - **< escape >**
           - Once done editing, the < escape > key allows user to leave "Insertion Mode" and back into
             "Normal Mode"
             
-      - **The results:**
-        - Before <br>
+    - **The results:**
+       - Before <br>
 
 
-          ![Image](CursorOne.png)
+       ![Image](CursorOne.png)
 
-        - After <br>
+       - After <br>
 
 
-          ![Image](EditTwo.png)
+       ![Image](EditTwo.png)
           
 <br>
 
@@ -196,13 +195,19 @@ and using VIM to edit and save the file.
      - The output after pressing < enter > to the command is: 
        ![Image](Commit.png)
   
-  3) Finally, type in: 
+  3) Finally, type in: <br>
+  
      ```
      git push origin
      ```
+     <br>
+     
+     
      - The command will now push the edits into the forked repository with the updates. 
 
-     - The output after pressing < enter > to the command is: 
+     - The output after pressing < enter > to the command is: <br>
+       
+       
        ![Image](PushOrigin.png)
 
 
