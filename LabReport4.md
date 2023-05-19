@@ -182,33 +182,40 @@ and using VIM to edit and save the file.
      ```
      git add ListExamples.java
      ``` 
-     - This command adds the newly edited file into the repository. <br>
+  <br>
+  
+
+   - This command adds the newly edited file into the repository. <br>
      
      
   2) Secondly, type in: 
      ```
      git commit -m "index changed"
      ```
-     - This command will commit the edited file with a message. **-m** is the command to add a message using **""**. 
-       In the block code, the message choosen was "index changed" to summarize the edits made. 
+   <br>
+   
+   
+   - This command will commit the edited file with a message. **-m** is the command to add a message using **""**. 
+     In the block code, the message choosen was "index changed" to summarize the edits made. 
        
-     - The output after pressing < enter > to the command is: 
-       ![Image](Commit.png)
+   - The output after pressing < enter > to the command is: 
+     ![Image](Commit.png)
   
   3) Finally, type in: <br>
   
-     ```
-     git push origin
-     ```
-     <br>
+  
+    ```
+    git push origin
+    ```
+    <br>
      
      
-     - The command will now push the edits into the forked repository with the updates. 
+   - The command will now push the edits into the forked repository with the updates. 
 
-     - The output after pressing < enter > to the command is: <br>
+   - The output after pressing < enter > to the command is: <br>
        
        
-       ![Image](PushOrigin.png)
+     ![Image](PushOrigin.png)
 
 
 
