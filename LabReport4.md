@@ -10,7 +10,7 @@ and using VIM to edit and save the file.
    
   2) Go to the repository's settings. <br>
   
-     ![Image](GitSettings.png)
+  
   
   
   3) Scroll all the way down and click on the button 'Delete this repository'. 
@@ -21,7 +21,7 @@ and using VIM to edit and save the file.
   4) Additionally, log into the @ieng6 account. Then use the command **rm -r lab7/** to remove the directory
      from the account in order to follow the next steps. When this is completed, log out of the account. 
     
-     ![Image](RemoveLab7.png)
+
   
   <br>
 
@@ -41,7 +41,6 @@ and using VIM to edit and save the file.
 ## Step 4: Log into ieng6
 
   1) Use the command: **ssh cs15lsp23__@ieng6.ucsd.edu** to remote login. 
-     
      ```
      ssh cs15lsp23il@ieng6.ucsd.edu
      ```
@@ -54,8 +53,6 @@ and using VIM to edit and save the file.
 
 ## Step 5: Clone your fork of the repository from your Github account
   1) Use the command: **git clone < ssh link >** to clone the repository from your GitHub account into your ieng6 account. 
-     <br>
-     
      ```
      git clone git@github.com:a-nguy4n/lab7.git
      ```
