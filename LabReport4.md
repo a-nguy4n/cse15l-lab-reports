@@ -103,7 +103,9 @@ and using VIM to edit and save the file.
    <br>
 
     
-  ## Step 7: Edit the code file to fix the failing test
+    
+## Step 7: Edit the code file to fix the failing test
+  
   1) To edit the code of the file, use the command: **vim ListExamples.java**. After running the command,it 
      will open up to the contents of the file containing code that must be edited. <br>
      
@@ -173,6 +175,7 @@ and using VIM to edit and save the file.
      ![Image](PassTest.png)
 <br>
     
+
 
 ## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
 
