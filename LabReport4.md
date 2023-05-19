@@ -202,6 +202,9 @@ and using VIM to edit and save the file.
      ![Image](Commit.png)
   
   3) Finally, type in: 
+  <br>
+  
+  
     ```
     git push origin
     ```
