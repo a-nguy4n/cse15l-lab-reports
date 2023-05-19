@@ -195,9 +195,9 @@ and using VIM to edit and save the file.
   <br>
 
 
-     ```
-     git add ListExamples.java
-     ``` 
+  ```
+  git add ListExamples.java
+  ``` 
   <br>
   
 
@@ -208,9 +208,9 @@ and using VIM to edit and save the file.
   <br>
   
   
-     ```
-     git commit -m "index changed"
-     ```
+   ```
+   git commit -m "index changed"
+   ```
    <br>
    
    
