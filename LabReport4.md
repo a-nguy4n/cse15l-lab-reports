@@ -49,7 +49,7 @@ and using VIM to edit and save the file.
   * Note: I was able to login without a password due to setting up a SSH Key to my ieng6 account. 
 
 ## Step 5: Clone your fork of the repository from your Github account
-  1) Use the command: **git clone < ssh link >** to clone the repository from your GitHub account into 
+  1) Use the command: <git clone (ssh link)> to clone the repository from your GitHub account into 
      your ieng6 account. <br>
      
    
