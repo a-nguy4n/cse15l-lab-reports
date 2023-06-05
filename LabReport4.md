@@ -65,7 +65,7 @@ and using VIM to edit and save the file.
      
    *If the name of directory is shown in the output, cloning is a success!*
 
-  3) Then, use the command <cd> to get into the repository and access its files. <br>
+  3) Then, use the command < cd > to get into the repository and access its files. <br>
 
 
    ```
