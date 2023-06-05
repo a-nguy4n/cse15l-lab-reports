@@ -80,7 +80,7 @@ the command < javac ArrayExamples.java > .
   an int[]. 
   
  
- ### Set Up Information
+### Set Up Information
   
   **File & Directory Structure**
   - The file structure needed to setup the code are two java files, ArrayTests.java and ArrayExamples.java.
