@@ -106,7 +106,7 @@ and using VIM to edit and save the file.
     
 ## Step 7: Edit the code file to fix the failing test
   
-  1) To edit the code of the file, use the command: **vim ListExamples.java**. After running the command,it 
+  1) To edit the code of the file, use the command: <vim ListExamples.java>. After running the command,it 
      will open up to the contents of the file containing code that must be edited.
      
   ![Image](OpenContents.png)
@@ -128,7 +128,7 @@ and using VIM to edit and save the file.
    
       3. Press the keys in this order:
       
-        - i : User will enter into "Insertion Mode" which allows them to edit the text
+        - <i> : User will enter into "Insertion Mode" which allows them to edit the text
                 
         - < backspace >: By backspacing, user will not delete the wrong character for the necessary edit.
              
