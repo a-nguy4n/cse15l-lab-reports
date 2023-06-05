@@ -79,8 +79,8 @@ the command < javac ArrayExamples.java > .
   that was created in line 22. Thus, there is a conversion error between the types as the method is specific to returning
   an int[]. 
   
- ### Set Up Information
-  
+
+### Set Up Information
   **File & Directory Structure**
   - The file structure needed to setup the code are two java files, ArrayTests.java and ArrayExamples.java.
     - ArrayExamples.java contains the methods to reverse the arrays.
