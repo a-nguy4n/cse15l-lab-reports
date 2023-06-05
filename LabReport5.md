@@ -4,7 +4,7 @@ This lab report will be tackling a debugging scenario and then reflecting on the
 ## Debugging Scenario
 
 ### Student Post: 
-![Image](StudentPost.png) 
+![Image](PostStudentEd.png) 
 <br>
 
 
