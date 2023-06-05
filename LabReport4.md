@@ -82,7 +82,7 @@ and using VIM to edit and save the file.
 
 
 ## Step 6: Run the tests, demonstrating that they fail
-  1) To run a test use the command: <bash test.sh> . 
+  1) To run a test use the command: < bash test.sh > . 
   - **Input:** <br>
 
 
