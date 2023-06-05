@@ -128,7 +128,7 @@ and using VIM to edit and save the file.
    
      **Step Three:** Press the keys in this order:
       
-        <i> : User will enter into "Insertion Mode" which allows them to edit the text
+        < i > : User will enter into "Insertion Mode" which allows them to edit the text
                 
         < backspace >: By backspacing, user will not delete the wrong character for the necessary edit.
              
@@ -139,8 +139,89 @@ and using VIM to edit and save the file.
         < escape > : Once done editing, the < escape > key allows user to leave "Insertion Mode" and back into "Normal Mode"
             
         
- 
+ **The results:**
+  - Before 
+    
+    ![Image](CursorOne.png)
 
+  - After
+    
+    ![Image](EditTwo.png)
+          
+<br>
+
+
+## Step 8: Run the tests, demonstrating that they now succeed.
+
+  1) Before running the tests, it is important to save the edited file. 
+     Type in the following: <br>
+     
+     
+   - <:wq>
+     - This will essentially save the file with the new edits made. 
+  <br>
+
+
+   - <return>
+   - Runs the command and exists the file and brings the user back to the command line.
+   <br>
+     
+     
+  2) To run the tests use the command: **bash test.sh** . This command will run tests on the newly edited 'ListExamples.java' file 
+     through JUnit. And now all test cases have passed! 
+     <br>  
+     
+     
+  ![Image](PassTest.png)
+     
+<br>
+    
+
+
+## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
+
+  1) First in the command line type: 
+  <br>
+
+
+  ```
+  git add ListExamples.java
+  ``` 
+  
+   - This command adds the newly edited file into the repository. <br>
+     
+     
+  2) Secondly, type in: 
+  <br>
+  
+ 
+   ```
+   git commit -m "index changed"
+   ```
+   
+  - This command will commit the edited file with a message. **-m** is the command to add a message using **""**. 
+     In the block code, the message choosen was "index changed" to summarize the edits made. 
+       
+  - The output after pressing < enter > to the command is: 
+  
+  ![Image](Commit.png)
+  
+  
+  
+  3) Finally, type in: 
+  <br>
+  
+  
+  ```
+  git push origin
+  ```
+     
+  - The command will now push the edits into the forked repository with the updates. 
+
+  - The output after pressing < enter > to the command is: <br>
+       
+       
+  ![Image](PushOrigin.png)
 
 
 
