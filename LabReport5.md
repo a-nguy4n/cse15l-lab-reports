@@ -86,17 +86,40 @@ the commands < javac ArrayTests.java > and < javac ArrayExamples.java > .
   ### Set Up Information
   
   **File & Directory Structure**
-  
+  - The file structure needed to setup the code are two java files, ArrayTests.java and ArrayExamples.java.
+    - ArrayExamples.java contains the methods to reverse the arrays.
+    - ArrayTests.java contains examples of arrays to be tested to determine if the methods reverse the array as expected.
+  - The directory is used from .../GitHub/lab3
   
   **File Contents (prior to debug)**
+  - Method of Bug from ArrayExamples.java 
+    ![Image](MethodError.png)
+  <br>
+  
+  
+  - Test Cases 
+    ![Image](TestCases.png) 
+  <br>
+  
   
   **Command Lines (triggering bug)**
+  - Running JUnit triggerd in VS Code 
+  - < javac ArrayExamples.java > 
+ 
   
   **Debugging Solution**
+  - To fix the bug, the method's line 22 in the file ArrayExamples.java needed the array types to change from double[] into int[] 
   
+  The Error:
   
+  ```
+  double[] newArray = new double[arr.length];
+  ```
   
-  
+  Fixing the Error:
+  ```
+  int[] newArray = new int[arr.length];
+  ```
 
 ## Reflection 
 
