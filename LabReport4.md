@@ -167,7 +167,7 @@ and using VIM to edit and save the file.
    <br>
      
      
-  2) To run the tests use the command: **bash test.sh** . This command will run tests on the newly edited 'ListExamples.java' file 
+  2) To run the tests use the command: < bash test.sh > . This command will run tests on the newly edited 'ListExamples.java' file 
      through JUnit. And now all test cases have passed! 
      <br>  
      
