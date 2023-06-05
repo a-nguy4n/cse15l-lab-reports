@@ -26,9 +26,6 @@ This lab report will be tackling a debugging scenario and then reflecting on the
 
 **Compile Commands from Terminal**
 
-From ArrayTests.java
-![Image](CompileArrayTest.png) 
-
 From ArrayExamples.java
 ![Image](CompileExamples.png) 
 <br>
@@ -43,7 +40,7 @@ From the student's post it can be found that:
 **The bug** appears to be from line 30, the return statement.
 
 **Failure - Inducing Inputs** are from the JUnit tests: testReversed and testReversed2. Moreover, 
-the commands < javac ArrayTests.java > and < javac ArrayExamples.java > .
+the command < javac ArrayExamples.java > .
 
 <br>
 
