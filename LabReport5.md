@@ -57,21 +57,36 @@ the commands < javac ArrayTests.java > and < javac ArrayExamples.java > .
   and run tests to see if this bug has now been fixed! 
   <br>
   
+ 
+ ### Student's Debugging 
   
-  ### Student's Debugging 
+  The student's debugging of the suggested line 22 can be seen here: 
+  ![Image](FixedMethod.png) 
+  <br>
   
+  **The outputs after debugging can be seen here:**
   
+  **Compile Success -** After fixing the method line and running the command < javac ArrayTests.java > , 
+  it is successful as no error message is outputted. 
+  ![Image](ArrayCompileSuccess.png) 
+  <br>
   
-  
-  
+  **JUnit Tests Passes -** The student's test cases have now passed without the type error message 
+  appearing in the test cases: testReversed and testReversed2.
+  ![Image](JunitPass.png) 
+  <br>
   
   **Bug Description**
+  - The bug was a type mismatch where the method required an int[] type to be returned on line 30. However, the method
+  body created a double[]. This means that the method then does not return an int[] because of the double[]
+  that was created in line 22. Thus, there is a conversion error between the types as the method is specific to returning
+  an int[]. 
   
-  
-  
+ 
   ### Set Up Information
   
   **File & Directory Structure**
+  
   
   **File Contents (prior to debug)**
   
