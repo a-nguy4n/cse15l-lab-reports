@@ -81,7 +81,7 @@ the command < javac ArrayExamples.java > .
   <br>
 
 
-### Set Up Information mmmmm
+### Set Up Information
   **File & Directory Structure**
   - The file structure needed to setup the code are two java files, ArrayTests.java and ArrayExamples.java.
     - ArrayExamples.java contains the methods to reverse the arrays.
