@@ -113,20 +113,20 @@ and using VIM to edit and save the file.
   
   2) Next follow these steps in order to edit the code:
  
-     **Step One:** Starting from the beginning line, hit the key j until you reach these code lines:
+    **Step One:** Starting from the beginning line, hit the key j until you reach these code lines:
         
       ![Image](CodeLine.png)
        
         - The j key essentially moves the cursor downwards so that the user may access the lines below in order to edit them. 
         * A much more efficient command to navigate to index1 is <:[line number]G> as it will allow you to quickly go to that specific line. 
       
-     **Step Two:** With the cursor on the line of ' index1 += 1; ' hit the L key to move the cursor onto the number 1.
+    **Step Two:** With the cursor on the line of ' index1 += 1; ' hit the L key to move the cursor onto the number 1.
         
       ![Image](CursorOne.png)
      
         - The L key moves the cursor to the right so that the user may access and edit any text to the right side. 
    
-     **Step Three:** Press the keys in this order:
+    **Step Three:** Press the keys in this order:
       
         < i > : User will enter into "Insertion Mode" which allows them to edit the text
                 
