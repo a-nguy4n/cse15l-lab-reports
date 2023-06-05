@@ -4,13 +4,84 @@ This lab report will be tackling a debugging scenario and then reflecting on the
 ## Debugging Scenario
 
 ### Student Post: 
+![Image](StudentPost.png) 
+<br>
 
 
+### Screenshots of Errors and Symptoms:
+
+**The Method**
+![Image](MethodError.png) 
+<br>
 
 
+**J Unit Tests**
+![Image](TestCases.png) 
+<br>
+
+
+**J Unit Test Error Message**
+![Image](JunitError.png) 
+<br>
+
+**Compile Commands from Terminal**
+
+From ArrayTests.java
+![Image](CompileArrayTest.png) 
+
+From ArrayExamples.java
+![Image](CompileExamples.png) 
+<br>
+
+
+### Student's Post Breakdown 
+
+From the student's post it can be found that: 
+
+**The symptom** is a type mismatch where the code cannot convert from double[] to int[].
+
+**The bug** appears to be from line 30, the return statement.
+
+**Failure - Inducing Inputs** are from the JUnit tests: testReversed and testReversed2. Moreover, 
+the commands < javac ArrayTests.java > and < javac ArrayExamples.java > .
 
 <br>
 
+
+### TA Response:
+  
+  It appears to me that you are right on your bug coming from a type mismatch by trying to 
+  convert a double array into a type integer array. In your method header, you declared that you 
+  will return an array of type int[]. However, in line 22 of your method, you have created a double array.
+  To fix this bug, try making this array into an integer type instead of a double. Afterwards, compile your code
+  and run tests to see if this bug has now been fixed! 
+  <br>
+  
+  
+  ### Student's Debugging 
+  
+  
+  
+  
+  
+  
+  **Bug Description**
+  
+  
+  
+  ### Set Up Information
+  
+  **File & Directory Structure**
+  
+  **File Contents (prior to debug)**
+  
+  **Command Lines (triggering bug)**
+  
+  **Debugging Solution**
+  
+  
+  
+  
 
 ## Reflection 
 
