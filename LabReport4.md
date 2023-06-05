@@ -58,7 +58,7 @@ and using VIM to edit and save the file.
    ```
      
   2) Use the command <ls> to check if the repository has been cloned into the account. 
-     The directory name **lab7** should be listed. 
+     The directory name 'lab7' should be listed. 
       
    ![Image](Lab7Check.png)
      
