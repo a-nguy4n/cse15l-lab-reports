@@ -78,7 +78,8 @@ the command < javac ArrayExamples.java > .
   body created a double[]. This means that the method then does not return an int[] because of the double[]
   that was created in line 22. Thus, there is a conversion error between the types as the method is specific to returning
   an int[]. 
-  
+  <br>
+
 
 ### Set Up Information
   **File & Directory Structure**
