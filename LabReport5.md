@@ -27,6 +27,7 @@ This lab report will be tackling a debugging scenario and then reflecting on the
   - This command means delete 6 words. 
   
   **Command < dd >**
+  
   < 4dd >
   - This command means delete 4 lines. 
   
