@@ -55,7 +55,7 @@ the command < javac ArrayExamples.java > .
   <br>
   
  
- ### Student's Debugging 
+### Student's Debugging 
   
   The student's debugging of the suggested line 22 can be seen here: 
   ![Image](FixedMethod.png) 
@@ -80,7 +80,7 @@ the command < javac ArrayExamples.java > .
   an int[]. 
   
  
-  ### Set Up Information
+ ### Set Up Information
   
   **File & Directory Structure**
   - The file structure needed to setup the code are two java files, ArrayTests.java and ArrayExamples.java.
